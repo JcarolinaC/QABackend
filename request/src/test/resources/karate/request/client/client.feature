@@ -34,4 +34,3 @@ Feature: Service client Get
       | 1996    |
       | "@##**" |
       | "caro"  |
-    

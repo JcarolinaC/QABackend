@@ -7,7 +7,7 @@ Feature: Create a new user
     * url url
 
   Scenario: Check the services by POST method
-    * def requestCreate = {"name": '#(name)', "job": '#(job)'}
+
     * def responsePost = read('classpath:karate/request/responsePost.json')
 
     Given path 'users'
@@ -19,4 +19,3 @@ Feature: Create a new user
     And assert response.Time < 500
     And assert response.name == name
     And assert response.job == job
-

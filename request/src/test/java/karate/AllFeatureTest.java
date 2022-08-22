@@ -1,4 +1,4 @@
-package karate.IntegrationTest;
+package karate;
 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;

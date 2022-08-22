@@ -1,2 +1,4 @@
-# petStoreQA
-In this repository you will find the exploratory and backend tests carried out during the time of this project. You will also find the environment variables used in postman since this is our tool to help us carry out the Backend tests.
+projectTesting
+In this repository, different tools will be worked on for testing the delivered applications, the use of Selenium, karate, postman will be used, among others, we will use the Java programming language as the main one, Cucumber, Gherkin will be included for the development of the scenarios of the tests
+
+#Environment use to postman variable https://reqres.in/api/users/2

@@ -8,10 +8,10 @@ Feature: Create a new user
 
   Scenario: Check the services by POST method
 
-    * def responsePost = read('classpath:karate/request/responsePost.json')
+    * def responsePost = read('classpath:karate/request/create/responsePost.json')
 
     Given path 'users'
-    And def jsonBody = read('classpath:karate/request/PostData.json')
+    And def jsonBody = read('classpath:karate/request/create/PostData.json')
     And request jsonBody
     When method post
     Then status 201

@@ -29,3 +29,19 @@ Feature: Login
     Then status 400
     And match response == responseUnsuccessful
     And assert response.Time < 500
+
+  Scenario Outline: Login unsuccessful with examples
+
+    * def responseUnsuccessful = read('classpath:karate/request/login/responseUnsuccessful.json')
+    * def data = {"email":"#(email)","password": "#(password)"}
+    Given path 'login'
+    And request data
+    When method post
+    Then status 400
+    And match response == responseUnsuccessful
+
+    Examples:
+      | email  | password                                     |
+      | "****" | 1234                                         |
+      | "caro" | ""                                           |
+      | ""     | abdisoadjpaosdjaisdjasidaiosdnoasndasndoaisn |

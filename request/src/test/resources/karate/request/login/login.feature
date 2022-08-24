@@ -11,14 +11,12 @@ Feature: Login
     * def dataBody = read ('classpath:karate/request/login/loginRequest.json')
     * def responseLogin = read ('classpath:karate/request/login/responseLogin.json')
 
-
     Given path 'login'
     And request dataBody
     When method post
     Then status 200
     And match response == responseLogin
     And assert response.Time < 500
-
 
   Scenario: Login unsuccessful to POST method
 

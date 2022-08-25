@@ -12,7 +12,7 @@
 5. [FAQs](#faqs)
 
 # About this repository
-In this repository, The automation of the backend of an api is carried out, the automation of the user creation modules, mail creation will be carried out.
+In this repository, the automation of the backend of an api will be carried out, the automation of the user creation modules, and the creation of emails will be carried out. we will use Gerkin language which we will integrate through Cucumber 🥒 , our framework to run the scenarios will be through karate 🥋 
 
 # Environment 
 ***
@@ -27,15 +27,18 @@ use to postman variable https://reqres.in/api/users/2
     Karate version: 0.9.6
          
 # Ide
+# 👩‍💻
 ***
 [intellij IDEA](https://www.jetbrains.com/es-es/idea/download/#section=windows)
 
 # Postman 
+# 👩‍🚀
 ***
 [Postman](https://www.postman.com/downloads/) 
 
 
-# Installation
+# Installation 
+# ⚙
 ***
 A little intro about the installation. 
 ```
@@ -45,12 +48,13 @@ npm install
 npm start
 
 ```
-# Collaboration
+# Collaboration 
+# 🤝
 ***
 Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
+> you can contact us and leave your comments in this repository. 
+> If you have any questions you can write to my inbox.
+> within the Faqs you will find more about the project.
 
 ## FAQs
 ***

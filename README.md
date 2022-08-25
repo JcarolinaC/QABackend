@@ -19,7 +19,7 @@ In this repository, The automation of the backend of an api is carried out, the 
 use to postman variable https://reqres.in/api/users/2
 
 # System environment variables
-    java version "1.8.0_202"
+    java Version "1.8.0_202"
     Apache Maven 3.8.6
     Gradle 7.5
          Kotlin:       1.6.21
@@ -28,21 +28,21 @@ use to postman variable https://reqres.in/api/users/2
          
 # Ide
 ***
-intellij IDEA
+[intellij IDEA](https://www.jetbrains.com/es-es/idea/download/#section=windows)
 
 # Postman 
 ***
-Postman 
+[Postman](https://www.postman.com/downloads/) 
 
 
 # Installation
 ***
 A little intro about the installation. 
 ```
-$ git clone https://ssh.example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+git clone https://ssh.example.com
+cd ../path/to/the/file
+npm install
+npm start
 
 ```
 # Collaboration

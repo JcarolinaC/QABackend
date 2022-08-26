@@ -41,8 +41,9 @@ A little intro about the installation.
 ```
 git clone https://ssh.example.com
 cd ../path/to/the/file
-npm install
-npm start
+git checkout develop
+
+this repository is this repository is hosted on the develop branch
 
 ```
 # Collaboration 
